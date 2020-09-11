@@ -12,7 +12,6 @@ type UserLocalStorage struct {
 	mutex *sync.Mutex
 }
 
-
 func NewUserLocalStorage() *UserLocalStorage {
 	return &UserLocalStorage{
 		users: make(map[string]*models.User),

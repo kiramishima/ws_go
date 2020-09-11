@@ -1,9 +1,9 @@
 package mock
 
 import (
+	"MenuDigital/models"
 	"context"
 	"github.com/stretchr/testify/mock"
-	"MenuDigital/models"
 )
 
 type UserStorageMock struct {

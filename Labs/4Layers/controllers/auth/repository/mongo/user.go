@@ -10,7 +10,7 @@ import (
 
 type User struct {
 	ID       primitive.ObjectID `bson:"_id,omitempty"`
-	Email string             `bson:"email"`
+	Email    string             `bson:"email"`
 	Password string             `bson:"password"`
 }
 
@@ -51,7 +51,7 @@ func (r UserRepository) GetUser(ctx context.Context, username, password string) 
 
 func toMongoUser(u *models.User) *User {
 	return &User{
-		Email: u.Email,
+		Email:    u.Email,
 		Password: u.Password,
 	}
 }
@@ -59,7 +59,7 @@ func toMongoUser(u *models.User) *User {
 func toModel(u *User) *models.User {
 	return &models.User{
 		ID:       u.ID.Hex(),
-		Email: u.Email,
+		Email:    u.Email,
 		Password: u.Password,
 	}
 }

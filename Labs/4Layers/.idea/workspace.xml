@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="255092fd-a83e-4e60-aa13-839b711d903d" name="Default Changelist" comment="" />
+    <list default="true" id="255092fd-a83e-4e60-aa13-839b711d903d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/auth/delivery/http/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth/delivery/http/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/auth/delivery/http/middleware.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth/delivery/http/middleware.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/auth/delivery/http/register.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth/delivery/http/register.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/auth/repository/localstorage/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth/repository/localstorage/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/auth/repository/localstorage/user_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth/repository/localstorage/user_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/auth/repository/mock/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth/repository/mock/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/auth/repository/mongo/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth/repository/mongo/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/auth/use_case.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth/use_case.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/auth/user_repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth/user_repository.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +30,14 @@
     </option>
   </component>
   <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1hIqwc9JdbgC4w0SBzJUBIdsV6C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">

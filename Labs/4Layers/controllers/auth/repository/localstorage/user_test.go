@@ -1,10 +1,10 @@
 package localstorage
 
 import (
-	"context"
-	"github.com/stretchr/testify/assert"
 	"MenuDigital/controllers/auth"
 	"MenuDigital/models"
+	"context"
+	"github.com/stretchr/testify/assert"
 	"testing"
 )
 
@@ -15,7 +15,7 @@ func TestGetUser(t *testing.T) {
 
 	user := &models.User{
 		ID:       id1,
-		Email: "user@mail.com",
+		Email:    "user@mail.com",
 		Password: "password",
 	}
 

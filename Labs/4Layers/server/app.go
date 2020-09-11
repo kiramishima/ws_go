@@ -17,7 +17,6 @@ import (
 	authmongo "MenuDigital/controllers/auth/repository/mongo"
 	authusecase "MenuDigital/controllers/auth/usecase"
 )
-)
 
 type App struct {
 	httpServer *http.Server
@@ -27,14 +26,14 @@ type App struct {
 func NewApp() *App {
 	db := initDB()
 
-	userRepo := authmongo.NewUserRepository(db, viper.GetString("mongo.user_collection"))
+	userRepo := authmongo.NewUserRepository(db, "")
 
 	return &App{
 		authUC: authusecase.NewAuthUseCase(
 			userRepo,
-			viper.GetString("auth.hash_salt"),
-			[]byte(viper.GetString("auth.signing_key")),
-			viper.GetDuration("auth.token_ttl"),
+			"auth.hash_salt",
+			[]byte("auth.signing_key"),
+			3600,
 		),
 	}
 }
