@@ -22,3 +22,11 @@ _testmain.go
 *.exe
 *.test
 *.prof
+**/__pycache__/*.cpython-37.pyc
+**/.idea/
+/**/**/.idea/
+**/__pycache__/*.cpython-37.pyc
+Labs/4Layers/bin/api
+Labs/4Layers/.idea/solid.iml
+Labs/4Layers/.idea/workspace.xml
+Labs/simple_grpc/.idea/simple_grpc.iml

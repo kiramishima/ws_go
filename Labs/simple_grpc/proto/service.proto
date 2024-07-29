@@ -1,1 +1,19 @@
-package proto
+syntax = "proto3";
+
+package proto;
+
+option go_package = "github.com/kiramishima/grpc_demo/proto";
+
+message Request {
+  int64 a = 1;
+  int64 b = 2;
+}
+
+message Response {
+  int64 result = 1;
+}
+
+service AddService {
+  rpc Add(Request) returns (Response);
+  rpc Substract(Request) returns (Response);
+}

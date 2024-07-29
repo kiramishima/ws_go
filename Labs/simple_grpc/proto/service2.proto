@@ -1,0 +1,19 @@
+syntax = "proto3";
+package employees;
+
+message Request2 {
+  string text = 1;
+}
+
+message Response2 {
+  repeated string keywords = 1;
+}
+
+service KeywordService {
+  rpc GetKeywords (Request2) returns (Response2) {}
+}
+
+message Employees {
+  string Name = 1;
+  int32 age = 2;
+}
