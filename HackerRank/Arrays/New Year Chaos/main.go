@@ -4,28 +4,25 @@ import "fmt"
 
 func minimumBribes(q []int32) {
 	// Write your code here
-	var n = q[0]
+	var n = int32(0)
 	var count = 0
 	fmt.Println(q)
-	for i := 1; i < len(q); i++ {
-		if n < q[i] {
-			n = q[i]
-			continue
-		} else {
-			var old = int32(n)
-			q[i-1] = old
-			q[i] = n
-			// fmt.Println(n, old, q[i-1])
-			if count > 2 {
-				fmt.Println("Too chaotic")
-				return
-			} else {
-				fmt.Println(count)
-			}
+	var idx = 0
+	// buscamos el indice donde esta el numero problematico
+	for i := 0; i < len(q)-1; i++ {
+		if q[i] > q[i+1] {
+			idx = i
+			break
+		}
+	}
+	n = q[idx]
+	// Comenzamos desde el indice mal acomodado
+	for i := idx; i < len(q)-1; i++ {
+		if n > q[i] {
 			count++
 		}
 	}
-	fmt.Println(q)
+	fmt.Println(count)
 
 }
 
